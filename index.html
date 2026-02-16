@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removals Manchester | Professional House & Office Removal Services</title>
+    <meta name="description" content="Expert removals in Manchester. Trusted house removals, office relocations, and man and van services across Greater Manchester. Get your free quote today.">
+    <meta name="keywords" content="removals manchester, house removals manchester, office removals manchester, man and van manchester, removal company manchester, furniture removals manchester">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --noir: #0A0A0A;
+            --charcoal: #1A1A1A;
+            --stone: #2A2A2A;
+            --fog: #E8E8E8;
+            --cream: #F5F5F0;
+            --pearl: #FAFAF8;
+            --gold: #D4A574;
+            --sage: #8B9A8D;
+            --terracotta: #C76244;
+        }
+
+        body {
+            font-family: 'Manrope', sans-serif;
+            background: var(--pearl);
+            color: var(--noir);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: var(--noir);
+            color: var(--cream);
+        }
+
+        /* Custom Cursor */
+        * {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%230A0A0A" stroke-width="2"><circle cx="12" cy="12" r="4"/></svg>') 12 12, auto;
+        }
+
+        a, button {
+            cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23D4A574" stroke-width="2"><circle cx="12" cy="12" r="6"/></svg>') 12 12, pointer;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 2rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(180deg, var(--pearl) 0%, rgba(250,250,248,0) 100%);
+            backdrop-filter: blur(8px);
+            animation: navSlideDown 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        @keyframes navSlideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--noir);
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--charcoal);
+            font-weight: 500;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            position: relative;
+            transition: color 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--gold);
+            transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            padding: 0.75rem 2rem;
+            background: var(--noir);
+            color: var(--cream) !important;
+            border-radius: 2px;
+            font-weight: 600;
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+            border: 1px solid var(--noir);
+        }
+
+        .nav-cta:hover {
+            background: transparent;
+            color: var(--noir) !important;
+        }
+
+        .nav-cta::after {
+            display: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-top: 0;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            align-items: center;
+            gap: 6rem;
+            padding: 8rem 4rem 4rem;
+            max-width: 1600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 15%;
+            right: -10%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(212, 165, 116, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            50% {
+                transform: translate(-30px, -40px) scale(1.05);
+            }
+        }
+
+        .hero-content {
+            animation: fadeInUp 1s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(60px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            border: 1px solid var(--stone);
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 3rem;
+            color: var(--charcoal);
+        }
+
+        .hero h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 6.5rem;
+            font-weight: 400;
+            line-height: 0.95;
+            letter-spacing: -0.03em;
+            margin-bottom: 2.5rem;
+            color: var(--noir);
+        }
+
+        .hero h1 .italic {
+            font-style: italic;
+            color: var(--gold);
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+            margin-bottom: 2rem;
+            max-width: 580px;
+            font-weight: 400;
+        }
+
+        .hero-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            max-width: 580px;
+        }
+
+        .hero-feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .feature-icon {
+            color: var(--gold);
+            font-size: 1.25rem;
+            margin-top: 0.15rem;
+        }
+
+        .feature-text {
+            font-size: 0.95rem;
+            color: var(--charcoal);
+            line-height: 1.6;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .btn-primary {
+            padding: 1.2rem 3rem;
+            background: var(--noir);
+            color: var(--cream);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 0.03em;
+            border: 1px solid var(--noir);
+            transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: var(--gold);
+            transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1), height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .btn-primary:hover::before {
+            width: 300%;
+            height: 400%;
+        }
+
+        .btn-secondary {
+            padding: 1.2rem 3rem;
+            background: transparent;
+            color: var(--noir);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 0.03em;
+            border: 1px solid var(--noir);
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+            display: inline-block;
+        }
+
+        .btn-secondary:hover {
+            background: var(--noir);
+            color: var(--cream);
+        }
+
+        /* Hero Visual */
+        .hero-visual {
+            position: relative;
+            height: 700px;
+            animation: fadeInRight 1.2s cubic-bezier(0.22, 1, 0.36, 1) 0.5s both;
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(80px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .visual-card {
+            position: absolute;
+            background: var(--cream);
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            padding: 2.5rem;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.06);
+        }
+
+        .visual-card.main {
+            width: 100%;
+            height: 500px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--charcoal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .visual-card.main::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(212, 165, 116, 0.03) 2px,
+                    rgba(212, 165, 116, 0.03) 4px
+                );
+            pointer-events: none;
+        }
+
+        .truck-icon {
+            font-size: 12rem;
+            filter: grayscale(1) contrast(1.2);
+            animation: subtleFloat 4s ease-in-out infinite;
+        }
+
+        @keyframes subtleFloat {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-25px) rotate(-2deg);
+            }
+        }
+
+        .visual-card.accent {
+            width: 280px;
+            background: var(--pearl);
+            animation: floatAccent 5s ease-in-out infinite;
+        }
+
+        @keyframes floatAccent {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .visual-card.accent-1 {
+            top: 30px;
+            left: -80px;
+            animation-delay: 0s;
+        }
+
+        .visual-card.accent-2 {
+            bottom: 60px;
+            right: -90px;
+            animation-delay: 1.5s;
+        }
+
+        .accent-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 3.5rem;
+            color: var(--noir);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+
+        .accent-label {
+            font-size: 0.85rem;
+            color: var(--charcoal);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 10rem 4rem;
+            background: var(--cream);
+            border-top: 1px solid rgba(10, 10, 10, 0.08);
+        }
+
+        .services-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            margin-bottom: 6rem;
+            max-width: 800px;
+        }
+
+        .section-tag {
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 4rem;
+            line-height: 1.1;
+            font-weight: 400;
+            color: var(--noir);
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+            font-weight: 400;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            background: rgba(10, 10, 10, 0.08);
+            border: 1px solid rgba(10, 10, 10, 0.08);
+        }
+
+        .service {
+            background: var(--pearl);
+            padding: 4rem 3rem;
+            transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: var(--noir);
+            transition: height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            z-index: 0;
+        }
+
+        .service:hover::before {
+            height: 100%;
+        }
+
+        .service:hover {
+            transform: scale(1.02);
+        }
+
+        .service > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+            transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .service:hover .service-number {
+            color: var(--gold);
+        }
+
+        .service-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--noir);
+            transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .service:hover .service-title {
+            color: var(--cream);
+        }
+
+        .service-text {
+            color: var(--charcoal);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .service:hover .service-text {
+            color: rgba(245, 245, 240, 0.8);
+        }
+
+        .service-arrow {
+            display: inline-block;
+            color: var(--gold);
+            font-size: 1.5rem;
+            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .service:hover .service-arrow {
+            transform: translateX(10px);
+        }
+
+        /* Coverage Areas */
+        .coverage {
+            padding: 8rem 4rem;
+            background: var(--pearl);
+        }
+
+        .coverage-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6rem;
+            align-items: center;
+            margin-top: 6rem;
+        }
+
+        .coverage-content h3 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.5rem;
+            color: var(--noir);
+            margin-bottom: 2rem;
+            line-height: 1.2;
+        }
+
+        .coverage-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+            margin-bottom: 2rem;
+        }
+
+        .areas-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem 3rem;
+            margin-top: 3rem;
+        }
+
+        .area-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1rem;
+            color: var(--charcoal);
+        }
+
+        .area-item::before {
+            content: '→';
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .coverage-image {
+            background: var(--cream);
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            padding: 3rem;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8rem;
+        }
+
+        /* Process Section */
+        .process {
+            padding: 10rem 4rem;
+            background: var(--noir);
+            color: var(--cream);
+        }
+
+        .process-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .process .section-title {
+            color: var(--cream);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 4rem;
+            margin-top: 6rem;
+        }
+
+        .process-step {
+            position: relative;
+        }
+
+        .process-step::before {
+            content: '';
+            position: absolute;
+            top: 60px;
+            left: calc(100% - 2rem);
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(212, 165, 116, 0.3), transparent);
+        }
+
+        .process-step:last-child::before {
+            display: none;
+        }
+
+        .step-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--gold);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .step-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--cream);
+        }
+
+        .step-description {
+            color: var(--fog);
+            line-height: 1.8;
+        }
+
+        /* Why Choose Section */
+        .why-choose {
+            padding: 10rem 4rem;
+            background: var(--cream);
+        }
+
+        .why-choose-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            margin-top: 6rem;
+        }
+
+        .benefit {
+            background: var(--pearl);
+            padding: 3rem;
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .benefit:hover {
+            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+            transform: translateY(-10px);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .benefit h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--noir);
+            margin-bottom: 1rem;
+        }
+
+        .benefit p {
+            color: var(--charcoal);
+            line-height: 1.8;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 10rem 4rem;
+            background: var(--pearl);
+        }
+
+        .testimonials-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .testimonials-slider {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            margin-top: 6rem;
+        }
+
+        .testimonial {
+            background: var(--cream);
+            padding: 4rem 3rem;
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .testimonial:hover {
+            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.08);
+            transform: translateY(-10px);
+        }
+
+        .quote-mark {
+            font-family: 'DM Serif Display', serif;
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-text {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+            margin-bottom: 3rem;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-initial {
+            width: 60px;
+            height: 60px;
+            background: var(--noir);
+            color: var(--cream);
+            display: grid;
+            place-items: center;
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.8rem;
+            font-style: italic;
+        }
+
+        .author-details h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--noir);
+        }
+
+        .author-details p {
+            font-size: 0.9rem;
+            color: var(--charcoal);
+            margin-top: 0.25rem;
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 10rem 4rem;
+            background: var(--cream);
+        }
+
+        .faq-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .faq-list {
+            margin-top: 6rem;
+        }
+
+        .faq-item {
+            background: var(--pearl);
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .faq-question {
+            padding: 2rem 3rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--noir);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question:hover {
+            background: var(--cream);
+        }
+
+        .faq-answer {
+            padding: 0 3rem 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+        }
+
+        /* CTA Section */
+        .cta {
+            padding: 12rem 4rem;
+            background: var(--charcoal);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: 50%;
+            width: 1000px;
+            height: 1000px;
+            background: radial-gradient(circle, rgba(212, 165, 116, 0.06) 0%, transparent 70%);
+            transform: translateX(-50%);
+        }
+
+        .cta-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 5.5rem;
+            line-height: 1.1;
+            color: var(--cream);
+            margin-bottom: 2rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        .cta p {
+            font-size: 1.4rem;
+            color: var(--fog);
+            margin-bottom: 4rem;
+            line-height: 1.7;
+        }
+
+        .cta-actions {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .btn-white {
+            padding: 1.4rem 3.5rem;
+            background: var(--cream);
+            color: var(--noir);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            letter-spacing: 0.03em;
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+            border: 1px solid var(--cream);
+        }
+
+        .btn-white:hover {
+            background: transparent;
+            color: var(--cream);
+            transform: translateY(-4px);
+        }
+
+        .btn-outline {
+            padding: 1.4rem 3.5rem;
+            background: transparent;
+            color: var(--cream);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            letter-spacing: 0.03em;
+            border: 1px solid var(--fog);
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .btn-outline:hover {
+            background: var(--cream);
+            color: var(--noir);
+            border-color: var(--cream);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 6rem 3rem 4rem;
+            }
+
+            .hero h1 {
+                font-size: 5rem;
+            }
+
+            .hero-visual {
+                height: 550px;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .coverage-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-slider {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 1.5rem 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 5rem 2rem 3rem;
+            }
+
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+
+            .hero-features {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .areas-list {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-step::before {
+                display: none;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta h2 {
+                font-size: 3rem;
+            }
+
+            .cta-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Manchester Removals</div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#coverage">Coverage</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#quote" class="nav-cta">Free Quote</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Manchester's Premier Removal Company</div>
+            <h1>Removals <span class="italic">Manchester</span></h1>
+            <p class="hero-description">
+                Expert house removals and office relocation services across Manchester and Greater Manchester. 
+                Professional removal specialists delivering stress-free moves since 2010.
+            </p>
+            
+            <div class="hero-features">
+                <div class="hero-feature">
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Fully insured house & office removals</span>
+                </div>
+                <div class="hero-feature">
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Same-day man and van service available</span>
+                </div>
+                <div class="hero-feature">
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Professional packing services included</span>
+                </div>
+                <div class="hero-feature">
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Serving all Manchester postcodes</span>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="#quote" class="btn-primary">Get Free Quote Today</a>
+                <a href="tel:01612345678" class="btn-secondary">Call: 0161 234 5678</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-card main">
+                <div class="truck-icon">🚛</div>
+            </div>
+            <div class="visual-card accent accent-1">
+                <div class="accent-number">15+</div>
+                <div class="accent-label">Years in Manchester</div>
+            </div>
+            <div class="visual-card accent accent-2">
+                <div class="accent-number">25K+</div>
+                <div class="accent-label">Manchester Moves</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="section-header">
+                <div class="section-tag">Manchester Removal Services</div>
+                <h2 class="section-title">Complete removal solutions in Manchester</h2>
+                <p class="section-description">
+                    From domestic house removals to commercial office relocations, we provide comprehensive 
+                    removal services tailored to Manchester residents and businesses.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">House Removals Manchester</h3>
+                    <p class="service-text">
+                        Professional domestic removals for flats, terraced houses, semi-detached, and detached 
+                        properties across all Manchester areas. Full packing service, furniture dismantling, 
+                        and secure transportation included.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+
+                <div class="service">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Office Removals Manchester</h3>
+                    <p class="service-text">
+                        Seamless commercial removals and office relocations in Manchester city centre and surrounding 
+                        business districts. Minimal disruption, IT equipment handling, and out-of-hours moves available.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+
+                <div class="service">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">Man and Van Manchester</h3>
+                    <p class="service-text">
+                        Flexible man and van hire services for small moves, student removals, single-item collection, 
+                        and delivery. Same-day availability across Greater Manchester with competitive hourly rates.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+
+                <div class="service">
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">Furniture Removals</h3>
+                    <p class="service-text">
+                        Specialist furniture removal service in Manchester. Expert handling of antique furniture, 
+                        piano removals, white goods, and bulky items with professional packing materials.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+
+                <div class="service">
+                    <div class="service-number">05</div>
+                    <h3 class="service-title">Packing Services</h3>
+                    <p class="service-text">
+                        Professional packing and unpacking services in Manchester. High-quality boxes, bubble wrap, 
+                        and protective materials. Fragile item specialists for china, glassware, and artwork.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+
+                <div class="service">
+                    <div class="service-number">06</div>
+                    <h3 class="service-title">Storage Solutions</h3>
+                    <p class="service-text">
+                        Secure storage facilities in Manchester for short-term and long-term requirements. 
+                        Climate-controlled units, 24/7 CCTV monitoring, and flexible access arrangements.
+                    </p>
+                    <span class="service-arrow">→</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Areas -->
+    <section class="coverage" id="coverage">
+        <div class="coverage-container">
+            <div class="section-header">
+                <div class="section-tag">Service Coverage</div>
+                <h2 class="section-title">Removals across Greater Manchester</h2>
+            </div>
+
+            <div class="coverage-grid">
+                <div class="coverage-content">
+                    <h3>We cover all Manchester postcodes and surrounding areas</h3>
+                    <p class="coverage-text">
+                        Our removal teams operate throughout Manchester city centre, Salford, Trafford, and all 
+                        Greater Manchester boroughs. Whether you're moving within Manchester or relocating to 
+                        nearby areas, our local knowledge ensures efficient, timely removals.
+                    </p>
+                    <p class="coverage-text">
+                        We provide comprehensive removal services to residential and commercial properties across 
+                        all M postcode areas, including difficult access properties, high-rise apartments, and 
+                        restricted parking zones in Manchester.
+                    </p>
+                    
+                    <div class="areas-list">
+                        <div class="area-item">Manchester City Centre (M1-M4)</div>
+                        <div class="area-item">Salford & MediaCityUK</div>
+                        <div class="area-item">Didsbury & Chorlton</div>
+                        <div class="area-item">Sale & Altrincham</div>
+                        <div class="area-item">Stockport & Cheadle</div>
+                        <div class="area-item">Bolton & Bury</div>
+                        <div class="area-item">Oldham & Rochdale</div>
+                        <div class="area-item">Stretford & Urmston</div>
+                        <div class="area-item">Withington & Fallowfield</div>
+                        <div class="area-item">Prestwich & Whitefield</div>
+                    </div>
+                </div>
+
+                <div class="coverage-image">
+                    📍
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="process-container">
+            <div class="section-header">
+                <div class="section-tag" style="color: var(--gold);">Simple Process</div>
+                <h2 class="section-title">How our Manchester removals work</h2>
+                <p class="section-description" style="color: var(--fog);">
+                    Our streamlined removal process ensures your Manchester move is handled professionally 
+                    from initial quote to final delivery.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Free Survey</h3>
+                    <p class="step-description">
+                        Request a free, no-obligation removal quote online or by phone. We offer home surveys 
+                        across Manchester for accurate pricing.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Book Your Date</h3>
+                    <p class="step-description">
+                        Choose your preferred moving date. We accommodate weekend removals, evening collections, 
+                        and flexible scheduling.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Professional Packing</h3>
+                    <p class="step-description">
+                        Our Manchester removal team arrives on schedule with all packing materials, equipment, 
+                        and expertise to prepare your belongings.
+                    </p>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Safe Delivery</h3>
+                    <p class="step-description">
+                        Secure transportation to your new Manchester property with careful unloading and placement 
+                        exactly where you need it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="why-choose-container">
+            <div class="section-header">
+                <div class="section-tag">Why Choose Us</div>
+                <h2 class="section-title">Manchester's trusted removal company</h2>
+                <p class="section-description">
+                    With over 15 years serving Manchester residents and businesses, we've built our reputation 
+                    on reliability, professionalism, and exceptional customer service.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Fully Insured Removals</h3>
+                    <p>
+                        Comprehensive insurance coverage for all Manchester removals. Your belongings are protected 
+                        from collection to delivery with our goods-in-transit insurance.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">👨‍💼</div>
+                    <h3>Expert Removal Teams</h3>
+                    <p>
+                        Professionally trained removal specialists with extensive Manchester area knowledge. 
+                        Background-checked staff handling your move with care and efficiency.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">💷</div>
+                    <h3>Competitive Prices</h3>
+                    <p>
+                        Transparent, fixed-price quotes for Manchester removals with no hidden charges. 
+                        We match local removal company rates while delivering superior service.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">📦</div>
+                    <h3>Free Packing Materials</h3>
+                    <p>
+                        Complimentary boxes, bubble wrap, and protective materials included with all Manchester 
+                        house removals. Quality packing supplies for safe transportation.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>
+                        Evening and weekend removals available across Manchester. We work around your schedule 
+                        with same-day and next-day removal services when needed.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit-icon">⭐</div>
+                    <h3>5-Star Service</h3>
+                    <p>
+                        Rated Manchester's top removal company by satisfied customers. Read our genuine reviews 
+                        from real Manchester moves and see why clients recommend us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <div class="section-tag">Customer Reviews</div>
+                <h2 class="section-title">What Manchester customers say</h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">
+                        Fantastic removal service in Manchester! The team handled our 3-bed house move from 
+                        Didsbury to Chorlton with complete professionalism. Nothing was too much trouble.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">S</div>
+                        <div class="author-details">
+                            <h4>Sarah Thompson</h4>
+                            <p>Chorlton, Manchester</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">
+                        Best man and van service in Manchester! Quick response for a same-day collection, 
+                        reasonable pricing, and the removal team were brilliant. Highly recommended.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">J</div>
+                        <div class="author-details">
+                            <h4>James Wilson</h4>
+                            <p>Salford, Greater Manchester</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">
+                        Excellent office removal service for our Manchester city centre relocation. Minimal 
+                        disruption, careful handling of IT equipment, and completed ahead of schedule.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-initial">L</div>
+                        <div class="author-details">
+                            <h4>Lisa Chen</h4>
+                            <p>Manchester City Centre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="faq-container">
+            <div class="section-header">
+                <div class="section-tag">Common Questions</div>
+                <h2 class="section-title">Manchester removals FAQ</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">How much do removals cost in Manchester?</div>
+                    <div class="faq-answer">
+                        Manchester removal costs vary based on property size, distance, and services required. 
+                        A typical 2-bed house removal in Manchester ranges from £350-£600, while 3-bed properties 
+                        cost £500-£900. Man and van services start from £50/hour. We provide free, accurate quotes 
+                        for all Manchester removals with transparent pricing and no hidden charges.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer same-day removals in Manchester?</div>
+                    <div class="faq-answer">
+                        Yes, we provide same-day and emergency removal services across Manchester subject to 
+                        availability. Our man and van service is ideal for urgent Manchester moves, single-item 
+                        collections, and last-minute relocations. Contact us before 10am for same-day service.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Which areas of Manchester do you cover?</div>
+                    <div class="faq-answer">
+                        We cover all Manchester postcodes (M1-M99) and Greater Manchester areas including Salford, 
+                        Trafford, Stockport, Bolton, Bury, Oldham, Rochdale, Tameside, and Wigan. Our removal 
+                        teams know Manchester intimately, handling parking restrictions, narrow streets, and 
+                        difficult access properties efficiently.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Are your Manchester removals fully insured?</div>
+                    <div class="faq-answer">
+                        All our Manchester removal services include comprehensive goods-in-transit insurance covering 
+                        your belongings during packing, loading, transportation, and unloading. We're fully licensed, 
+                        insured, and compliant with all removal industry regulations in the UK.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Do you provide packing materials for Manchester moves?</div>
+                    <div class="faq-answer">
+                        Yes, we supply free packing materials including removal boxes, bubble wrap, tissue paper, 
+                        and tape with all full-service Manchester removals. Additional packing supplies are available 
+                        to purchase. Our professional packing service in Manchester includes expert handling of 
+                        fragile items, antiques, and valuable possessions.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Can you handle office removals in Manchester city centre?</div>
+                    <div class="faq-answer">
+                        Absolutely. We specialise in commercial removals and office relocations across Manchester 
+                        city centre. We navigate parking restrictions, arrange necessary permits, and schedule moves 
+                        during evenings/weekends to minimise business disruption. Our teams handle IT equipment, 
+                        office furniture, and confidential documents with complete professionalism.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="quote">
+        <div class="cta-container">
+            <h2>Ready to move in Manchester?</h2>
+            <p>
+                Get your free, no-obligation removal quote today. Our Manchester team is ready to make 
+                your move smooth, stress-free, and affordable.
+            </p>
+            <div class="cta-actions">
+                <a href="#contact" class="btn-white">Request Free Quote</a>
+                <a href="tel:01612345678" class="btn-outline">Call: 0161 234 5678</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Quote - Manchester Removals | Get Instant Estimate</title>
+    <meta name="description" content="Get a free, no-obligation removal quote for Manchester. Instant online estimates for house removals, office moves, and man and van services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"><a href="index.html">Manchester Removals</a></div>
+        <ul class="nav-links">
+            <li><a href="services.html">Services</a></li>
+            <li><a href="areas.html">Coverage</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="quote.html" class="nav-cta">Free Quote</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <div class="hero-badge">No Obligation</div>
+            <h1>Get your <span class="italic">free quote</span></h1>
+            <p class="hero-description">
+                Transparent pricing for Manchester removals. Complete the form below for an accurate, 
+                fixed-price quote within 2 hours.
+            </p>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section class="quote-section">
+        <div class="quote-container">
+            <div class="quote-layout">
+                <!-- Benefits Sidebar -->
+                <div class="quote-benefits">
+                    <h2>Why get a quote from us?</h2>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h3>Fixed Price Guarantee</h3>
+                                <p>No hidden fees or surprise charges. What we quote is what you pay.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h3>Quick Response</h3>
+                                <p>Receive your detailed quote within 2 hours during business hours.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h3>Free Home Survey</h3>
+                                <p>Optional free visit to your Manchester property for exact pricing.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div class="benefit-text">
+                                <h3>No Obligation</h3>
+                                <p>Request quotes with zero commitment. Compare and decide at your pace.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trust-indicators">
+                        <div class="trust-item">
+                            <div class="trust-number">15+</div>
+                            <div class="trust-label">Years Experience</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-number">25K+</div>
+                            <div class="trust-label">Happy Customers</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-number">5★</div>
+                            <div class="trust-label">Average Rating</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quote Form -->
+                <div class="quote-form-wrapper">
+                    <div class="form-header">
+                        <h2>Request your free quote</h2>
+                        <p>Complete the details below and we'll provide an accurate removal quote tailored to your needs.</p>
+                    </div>
+
+                    <form class="quote-form" id="quoteForm">
+                        <!-- Step 1: Personal Details -->
+                        <div class="form-section">
+                            <h3 class="section-title">1. Your Details</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fullName">Full Name *</label>
+                                    <input type="text" id="fullName" name="fullName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="preferredContact">Preferred Contact Method</label>
+                                    <select id="preferredContact" name="preferredContact">
+                                        <option value="phone">Phone</option>
+                                        <option value="email">Email</option>
+                                        <option value="either">Either</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Move Details -->
+                        <div class="form-section">
+                            <h3 class="section-title">2. Move Information</h3>
+                            
+                            <div class="form-group">
+                                <label for="serviceType">Type of Removal *</label>
+                                <select id="serviceType" name="serviceType" required>
+                                    <option value="">Select service type</option>
+                                    <option value="house">House Removal</option>
+                                    <option value="flat">Flat/Apartment Removal</option>
+                                    <option value="office">Office Relocation</option>
+                                    <option value="van">Man and Van</option>
+                                    <option value="student">Student Move</option>
+                                    <option value="furniture">Furniture Only</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="propertySize">Property Size</label>
+                                    <select id="propertySize" name="propertySize">
+                                        <option value="">Select size</option>
+                                        <option value="studio">Studio/Bedsit</option>
+                                        <option value="1bed">1 Bedroom</option>
+                                        <option value="2bed">2 Bedrooms</option>
+                                        <option value="3bed">3 Bedrooms</option>
+                                        <option value="4bed">4 Bedrooms</option>
+                                        <option value="5bed">5+ Bedrooms</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="moveDate">Preferred Move Date *</label>
+                                    <input type="date" id="moveDate" name="moveDate" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="moveFrom">Moving From (Postcode) *</label>
+                                    <input type="text" id="moveFrom" name="moveFrom" placeholder="M1 1AE" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="moveTo">Moving To (Postcode) *</label>
+                                    <input type="text" id="moveTo" name="moveTo" placeholder="M2 2BB" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="floors">Number of Floors</label>
+                                    <select id="floors" name="floors">
+                                        <option value="">Select</option>
+                                        <option value="ground">Ground Floor</option>
+                                        <option value="1">1st Floor</option>
+                                        <option value="2">2nd Floor</option>
+                                        <option value="3">3rd Floor+</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="liftAccess">Lift Available?</label>
+                                    <select id="liftAccess" name="liftAccess">
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                        <option value="unknown">Unknown</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Additional Services -->
+                        <div class="form-section">
+                            <h3 class="section-title">3. Additional Services</h3>
+                            
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="packing">
+                                    <span>Full Packing Service</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="unpacking">
+                                    <span>Unpacking Service</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="storage">
+                                    <span>Storage Required</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="dismantling">
+                                    <span>Furniture Dismantling/Assembly</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="services" value="cleaning">
+                                    <span>End of Tenancy Cleaning</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Special Items -->
+                        <div class="form-section">
+                            <h3 class="section-title">4. Special Items</h3>
+                            
+                            <div class="checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="specialItems" value="piano">
+                                    <span>Piano</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="specialItems" value="antiques">
+                                    <span>Antique Furniture</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="specialItems" value="artwork">
+                                    <span>Artwork/Paintings</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="specialItems" value="safe">
+                                    <span>Safe/Heavy Items</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Additional Information -->
+                        <div class="form-section">
+                            <h3 class="section-title">5. Additional Information</h3>
+                            
+                            <div class="form-group">
+                                <label for="additionalInfo">Any special requirements or concerns?</label>
+                                <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="e.g., parking restrictions, narrow access, fragile items, pets, etc."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="homeSurvey" value="yes">
+                                    <span>I would like a free home survey for accurate pricing</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Get My Free Quote</button>
+
+                        <p class="form-note">By submitting this form, you agree to our privacy policy. We'll never share your details with third parties.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --noir: #0A0A0A;
+            --charcoal: #1A1A1A;
+            --stone: #2A2A2A;
+            --fog: #E8E8E8;
+            --cream: #F5F5F0;
+            --pearl: #FAFAF8;
+            --gold: #D4A574;
+        }
+
+        body {
+            font-family: 'Manrope', sans-serif;
+            background: var(--pearl);
+            color: var(--noir);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 2rem 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--pearl);
+            border-bottom: 1px solid rgba(10, 10, 10, 0.08);
+        }
+
+        .logo a {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--noir);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 3rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--charcoal);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .nav-cta {
+            padding: 0.75rem 2rem;
+            background: var(--noir);
+            color: var(--cream) !important;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+
+        /* Page Hero */
+        .page-hero {
+            margin-top: 85px;
+            padding: 5rem 4rem 4rem;
+            background: var(--cream);
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            border: 1px solid var(--stone);
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .page-hero h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 4.5rem;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+
+        .italic {
+            font-style: italic;
+            color: var(--gold);
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            color: var(--charcoal);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Quote Section */
+        .quote-section {
+            padding: 6rem 4rem;
+            background: var(--pearl);
+        }
+
+        .quote-container {
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+
+        .quote-layout {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 5rem;
+        }
+
+        /* Benefits Sidebar */
+        .quote-benefits {
+            position: sticky;
+            top: 120px;
+            align-self: start;
+        }
+
+        .quote-benefits h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.2;
+        }
+
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--noir);
+            color: var(--cream);
+            display: grid;
+            place-items: center;
+            border-radius: 2px;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .benefit-text h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+            color: var(--noir);
+        }
+
+        .benefit-text p {
+            font-size: 0.95rem;
+            color: var(--charcoal);
+            line-height: 1.6;
+        }
+
+        .trust-indicators {
+            background: var(--cream);
+            padding: 2rem;
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        .trust-number {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.5rem;
+            font-style: italic;
+            color: var(--noir);
+            line-height: 1;
+        }
+
+        .trust-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--charcoal);
+            margin-top: 0.5rem;
+        }
+
+        /* Quote Form */
+        .quote-form-wrapper {
+            background: var(--cream);
+            padding: 4rem;
+            border: 1px solid rgba(10, 10, 10, 0.08);
+        }
+
+        .form-header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(10, 10, 10, 0.08);
+        }
+
+        .form-header h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-header p {
+            color: var(--charcoal);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .quote-form {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--noir);
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--noir);
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 1rem 1.25rem;
+            border: 1px solid rgba(10, 10, 10, 0.15);
+            background: var(--pearl);
+            font-family: 'Manrope', sans-serif;
+            font-size: 1rem;
+            border-radius: 2px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--gold);
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: var(--pearl);
+            border: 1px solid rgba(10, 10, 10, 0.08);
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .checkbox-label:hover {
+            border-color: var(--gold);
+            background: var(--cream);
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: var(--noir);
+        }
+
+        .checkbox-label span {
+            font-size: 0.95rem;
+            color: var(--noir);
+        }
+
+        .btn-submit {
+            padding: 1.4rem 3.5rem;
+            background: var(--noir);
+            color: var(--cream);
+            border: 1px solid var(--noir);
+            font-family: 'Manrope', sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 2px;
+            margin-top: 1rem;
+        }
+
+        .btn-submit:hover {
+            background: var(--gold);
+            border-color: var(--gold);
+        }
+
+        .form-note {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--stone);
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 1200px) {
+            .quote-layout {
+                grid-template-columns: 1fr;
+                gap: 4rem;
+            }
+
+            .quote-benefits {
+                position: static;
+            }
+
+            .trust-indicators {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding: 1.5rem 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .page-hero h1 {
+                font-size: 3rem;
+            }
+
+            .quote-form-wrapper {
+                padding: 2.5rem 2rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .checkbox-group {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script>
+        // Form handling
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Collect checkbox values
+            data.services = Array.from(document.querySelectorAll('input[name="services"]:checked'))
+                .map(cb => cb.value);
+            data.specialItems = Array.from(document.querySelectorAll('input[name="specialItems"]:checked'))
+                .map(cb => cb.value);
+            
+            console.log('Quote request submitted:', data);
+            
+            // Show success message
+            alert('Thank you! Your quote request has been received. We\'ll send you a detailed quote within 2 hours.');
+            
+            // Reset form
+            this.reset();
+            
+            // In production, send to backend/email service
+        });
+
+        // Set minimum date to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('moveDate').setAttribute('min', today);
+    </script>
+</body>
+</html>
